@@ -1,7 +1,7 @@
 ARG GO_VERSION=1.27.4
 FROM golang:${GO_VERSION}-bookworm AS golang
 
-FROM letsdone/devcontainer-base:0.1.3-all
+FROM letsdone/devcontainer-base:0.1.4-all
 USER root
 
 ARG USERNAME=dev
